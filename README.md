@@ -1,13 +1,14 @@
 # LOFAR
 
 ### `lta2hpc`
+The `src` object can specify either `paths` (SURLs) or `id` (observation ID).
+
 ```json
 {
     "cmd": {
         "src": {
-            "paths": [
-                "<surl>"
-            ]
+            "paths": ["<surl>", "..."],
+	    "id": <id>
         }, 
         "dest": {
             "host": "<host>",

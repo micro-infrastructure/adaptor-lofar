@@ -8,7 +8,7 @@ The `src` object can specify either `paths` (SURLs) or `id` (observation ID).
     "cmd": {
         "src": {
             "paths": ["<surl>", "..."],
-	    "id": <id>
+	    "id": 123
         }, 
         "dest": {
             "host": "<host>",
